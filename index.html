@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fossa de Bananeira - Feira de Ciências</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+<nav>
+
+    <div class="logo">
+        🌱 
+    </div>
+
+    <<ul>
+    <li><a href="#sobre">Sobre</a></li>
+
+    <li><a href="#funcionamento">Funcionamento</a></li>
+
+    <li><a href="#beneficios">Benefícios</a></li>
+
+    <li><a href="#galeria">Galeria</a></li>
+
+    <li><a href="#curiosidades">Você Sabia?</a></li>
+
+    <li>
+        <a href="quiz.html" class="menu-desafio">
+            🚀 Desafio
+        </a>
+    </li>
+
+    <li><a href="#grupo">Equipe</a></li>
+</ul>
+
+</nav>
+
+<header>
+
+    <div class="hero">
+<h1>🌱 BACIA DE EVAPOTRANSPIRAÇÃO</h1>
+
+<p>
+    Uma solução sustentável para o tratamento
+    ecológico das águas negras provenientes do
+    vaso sanitário.
+</p>
+
+        <a href="#sobre" class="btn">
+            Explorar Projeto
+        </a>
+
+    </div>
+
+</header>
+
+<section id="sobre">
+
+   <h2>🌱 O QUE É A BACIA DE EVAPOTRANSPIRAÇÃO?</h2>
+
+<p>
+
+A Bacia de Evapotranspiração (BET) é um sistema ecológico
+utilizado para tratar águas negras provenientes do vaso sanitário.
+
+Esse sistema utiliza pneus, brita, areia, matéria orgânica
+e plantas de grande porte, especialmente bananeiras,
+para promover o tratamento natural dos resíduos.
+
+A água não é lançada diretamente no solo. Ela é absorvida
+pelas plantas e devolvida à atmosfera através do processo
+de evapotranspiração.
+
+</p>
+
+</section>
+
+<section class="numeros">
+
+    <div>
+        <h3 id="beneficiosContador">0</h3>
+        <p>Benefícios</p>
+    </div>
+
+    <div>
+        <h3 id="etapasContador">0</h3>
+        <p>Etapas</p>
+    </div>
+
+    <div>
+        <h3 id="odsContador">0</h3>
+        <p>ODS Relacionadas</p>
+    </div>
+
+</section>
+
+<section id="funcionamento">
+
+    <h2>💧 COMO FUNCIONA?</h2>
+
+    <div class="cards">
+
+        <div class="card">
+
+            <h3>🚽 Entrada das Águas Negras</h3>
+
+<p>
+Os resíduos provenientes do vaso sanitário entram
+na Bacia de Evapotranspiração através da tubulação.
+</p>
+
+        </div>
+
+        <div class="card">
+
+            <h3>🛞 Câmara de Digestão</h3>
+
+<p>
+A primeira etapa ocorre em uma câmara composta por pneus
+e materiais drenantes onde os resíduos iniciam a decomposição.
+</p>
+
+        </div>
+
+        <div class="card">
+<h3>🦠 Ação dos Microrganismos</h3>
+
+<p>
+Bactérias e outros microrganismos realizam a decomposição
+da matéria orgânica presente nos resíduos.
+</p>
+
+        </div>
+
+        <div class="card">
+
+          <h3>🌿 Absorção pelas Plantas</h3>
+
+<p>
+As raízes absorvem nutrientes e água presentes na estrutura,
+favorecendo o crescimento saudável das plantas.
+</p>
+
+        </div>
+
+        <div class="card">
+
+          <h3>☁️ Evapotranspiração</h3>
+
+<p>
+A água retorna para a atmosfera através das folhas,
+concluindo o tratamento ecológico.
+</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="explicacao-cientifica">
+
+   <h2>🔬 A Ciência por Trás da Bacia de Evapotranspiração</h2>
+
+<p>
+A Bacia de Evapotranspiração utiliza processos biológicos,
+físicos e naturais para transformar resíduos orgânicos.
+
+Microrganismos realizam a decomposição da matéria orgânica,
+enquanto as plantas absorvem nutrientes e água.
+</p>
+
+<p>
+O sistema evita a contaminação do solo e dos lençóis freáticos,
+sendo uma alternativa sustentável para o saneamento rural.
+</p>
+
+</section>
+
+<section id="beneficios">
+
+    <h2>✅ BENEFÍCIOS</h2>
+
+    <div class="beneficios">
+
+<div class="beneficio-item">
+ <button onclick="mostrarInfo('lencol')" class="btn-beneficio">
+    💧 Proteção dos Lençóis Freáticos
+</button>
+
+<div id="lencol" class="info-beneficio">
+    A BET impede que os resíduos contaminem o solo e as águas subterrâneas, ajudando a proteger os lençóis freáticos.
+
+</div>
+
+</div>
+
+<div class="beneficio-item">
+
+<button onclick="mostrarInfo('vegetal')" class="btn-beneficio">
+    🌱 Produção Vegetal
+</button>
+
+<div id="vegetal" class="info-beneficio">
+    As plantas absorvem nutrientes e água do sistema, apresentando desenvolvimento saudável.
+
+</div>
+
+</div>
+
+<div class="beneficio-item">
+
+    <button onclick="mostrarInfo('bananeiras')" class="btn-beneficio">
+        🍌 Desenvolvimento das Bananeiras
+    </button>
+
+    <div id="bananeiras" class="info-beneficio">
+
+        As bananeiras possuem grande capacidade de absorção de água e nutrientes, tornando-se ideais para a BET.
+
+    </div>
+
+</div>
+
+<div class="beneficio-item">
+
+<button onclick="mostrarInfo('ecologico')" class="btn-beneficio">
+    ♻️ Tratamento Ecológico
+</button>
+
+<div id="ecologico" class="info-beneficio">
+    O tratamento ocorre através de processos naturais, sem utilização de produtos químicos.
+
+</div>
+
+</div>
+
+<div class="beneficio-item">
+
+<button onclick="mostrarInfo('custo')" class="btn-beneficio">
+    🏡 Baixo Custo
+</button>
+
+<div id="custo" class="info-beneficio">
+    A construção pode utilizar materiais simples e acessíveis, reduzindo significativamente os custos.
+
+</div>
+
+</div>
+
+<div class="beneficio-item">
+
+<button onclick="mostrarInfo('impacto')" class="btn-beneficio">
+    🌎 Redução dos Impactos Ambientais
+</button>
+
+<div id="impacto" class="info-beneficio">
+    A BET reduz riscos de contaminação ambiental e contribui para a preservação dos recursos naturais.
+
+</div>
+
+</div>
+
+<section>
+
+    <h2>🌍 ODS RELACIONADAS</h2>
+
+    <div class="ods">
+
+        <div>ODS 6<br>Água Potável e Saneamento</div>
+
+        <div>ODS 11<br>Cidades Sustentáveis</div>
+
+        <div>ODS 12<br>Consumo Responsável</div>
+
+        <div>ODS 15<br>Vida Terrestre</div>
+
+    </div>
+
+</section>
+
+<section id="galeria">
+
+    <h2>📸 GALERIA DO PROJETO</h2>
+
+   <h2 class="titulo-galeria">Construção da Fossa</h2>
+
+<div class="galeria">
+    <!-- todas as fotos da construção -->
+
+
+        <div class="foto">
+            <img src="1.4.jpeg" alt="Construção da Fossa">
+            
+        </div>
+
+        <div class="foto">
+            <img src="1.5.jpeg" alt="Projeto Finalizado">
+            
+        </div>
+<div class="foto">
+            <img src="1.12.jpeg" alt="Construção da Fossa">
+            
+        </div>
+
+        <div class="foto">
+            <img src="2.3.jpeg" alt="Projeto Finalizado">
+          
+        </div>
+  <div class="foto">
+            <img src="11.jpeg" alt="Projeto Finalizado">
+         
+        </div>
+
+    <div class="foto">
+            <img src="12.jpeg" alt="Construção da Fossa">
+          
+        </div>
+        
+<div class="foto">
+            <img src="1.jpeg" alt="Construção da Fossa">
+           
+        </div>
+
+        <div class="foto">
+            <img src="1,22.jpeg" alt="Projeto Finalizado">
+            
+        </div>
+
+    <div class="foto">
+            <img src="1.1.jpeg" alt="Construção da Fossa">
+           
+        </div>
+
+        <div class="foto">
+            <img src="3.jpeg" alt="Projeto Finalizado">
+            
+        </div>
+
+    <div class="foto">
+            <img src="4.jpeg" alt="Construção da Fossa">
+            
+        </div>
+
+        <div class="foto">
+            <img src="5.jpeg" alt="Projeto Finalizado">
+            
+        </div>
+
+    <div class="foto">
+            <img src="6.jpeg" alt="Construção da Fossa">
+           
+        </div>
+
+        <div class="foto">
+            <img src="7.jpeg" alt="Projeto Finalizado">
+          
+        </div>
+
+    <div class="foto">
+            <img src="8.jpeg" alt="Construção da Fossa">
+           
+        </div>
+
+        <div class="foto">
+            <img src="9.jpeg" alt="Projeto Finalizado">
+           
+        </div>
+        
+    <div class="foto">
+            <img src="10.jpeg" alt="Construção da Fossa">
+            
+
+             </section>
+
+<h2 class="titulo-galeria">Projeto Finalizado</h2>
+
+<div class="galeria">
+    <div class="foto">
+        <img src="13.jpeg" alt="Projeto Finalizado">
+    </div>
+</div>
+
+</section>
+
+<section id="curiosidades">
+
+    <div class="saiba-card">
+
+<h3>💡 Você Sabia?</h3>
+
+        <h2>📚 Curiosidades Extras</h2>
+
+        <p>
+            Embora seja conhecida como Fossa de Bananeira, outras plantas
+            com grande capacidade de absorção de água também podem ser
+            utilizadas no sistema, desde que sejam adequadas ao clima local.
+        </p>
+
+        <p>
+            O sistema não utiliza energia elétrica nem produtos químicos,
+            tornando-se uma alternativa sustentável e de baixo custo para
+            o tratamento de águas cinzas.
+        </p>
+
+        <p>
+            As folhas, galhos e matéria orgânica presentes na estrutura
+            servem como abrigo para milhões de microrganismos que ajudam
+            na decomposição dos resíduos.
+        </p>
+
+        <p>
+            A Fossa de Bananeira contribui para a conservação da água,
+            redução da poluição do solo e fortalecimento da educação
+            ambiental nas comunidades.
+        </p>
+
+
+<ul class="lista-curiosidades">
+
+<li>🍌 Bananeiras absorvem grandes quantidades de água diariamente.</li>
+
+<li>🛞 Pneus reciclados podem ser utilizados na estrutura da bacia.</li>
+
+<li>🦠 Microrganismos realizam grande parte do tratamento dos resíduos.</li>
+
+<li>🌱 O sistema é amplamente utilizado em áreas rurais.</li>
+
+<li>☁️ A evapotranspiração devolve água para a atmosfera.</li>
+
+</ul>
+        <section id="saiba-mais">
+
+    <div class="saiba-card">
+
+        <h3 class="desafio-titulo">
+            🚀 Clique e participe do desafio!
+        </h3>
+
+        <p class="desafio-texto">
+            Teste seus conhecimentos sobre 🚽 TESTAR MEUS CONHECIMENTOS SOBRE A BET
+        </p>
+
+        <!-- seu conteúdo atual -->
+
+        <a href="quiz.html" class="btn-saiba">
+            🎯 INICIAR MISSÃO SUSTENTÁVEL
+        </a>
+
+    </div>
+
+</section>
+        </a>
+
+    </div>
+
+</section>
+
+    </div>
+
+</section>
+
+<footer>
+
+    <h3>🌱 Feira de Ciências</h3>
+
+    <p>
+        Projeto: Bacia de Evapotranspiração (BET) - Saneamento Ecológico
+    </p>
+<section id="grupo">
+
+    <h2>Equipe do Projeto</h2>
+
+ <<div class="grupo-card">
+
+        Sustentabilidade em Ação
+    </p>
+
+    <hr>
+
+    <p>
+        <strong>Integrantes</strong>
+    </p>
+
+    <div class="integrantes">
+
+        <div class="integrante">
+            🎓 Agata Munique de Moraes Arantes
+        </div>
+
+        <div class="integrante">
+            🎓 Kemily Vitoria de Almeida
+        </div>
+
+        <div class="integrante">
+            🎓 Lívia Ribeiro Rodrigues
+        </div>
+
+        <div class="integrante">
+            🎓 Stefany Vitoria Leandro
+  </div>
+            <div class="integrante">
+            🎓 Wemylayne Rodrigues Santos
+        </div>
+
+        <div class="integrante">
+            🎓 Wevelyn Nicolle Souza de Lima Araujo
+        </div>
+
+    </div>
+
+    <hr>
+
+    <p>
+        <strong>Professor Orientador</strong><br>
+        Toni Cristiano Ezidio
+    </p>
+
+    <p>
+        <strong>Escola</strong><br>
+        Francisco Mariano de Almeida
+    </p>
+
+  <strong>Alunas</strong><br>
+       7º ano B
+    </p>
+
+</div>
+
+</div>
+
+    </div>
+
+</section>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
